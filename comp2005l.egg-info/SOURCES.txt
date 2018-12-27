@@ -1,0 +1,105 @@
+MANIFEST.in
+setup.py
+app/LICENSE
+app/README.md
+app/__init__.py
+app/app.db
+app/config.py
+app/modelsImport.py
+app/routes.py
+app/test.db
+app/controllers/group.py
+app/controllers/login.py
+app/controllers/logout.py
+app/controllers/post.py
+app/controllers/register.py
+app/controllers/userprofile.py
+app/controllers/__pycache__/group.cpython-37.pyc
+app/controllers/__pycache__/login.cpython-37.pyc
+app/controllers/__pycache__/logout.cpython-37.pyc
+app/controllers/__pycache__/post.cpython-37.pyc
+app/controllers/__pycache__/register.cpython-37.pyc
+app/controllers/__pycache__/userprofile.cpython-37.pyc
+app/documentation/1a-gantt chart/COMP2005-L.pod
+app/documentation/1b-management structure and processes/processes_and_management.pdf
+app/documentation/1c&d- individual-allocation/Individual Allocation.pdf
+app/documentation/1e-ranking/Ranking of Group Members.pdf
+app/documentation/2a&b&c-requirements/Requirements Document.pdf
+app/documentation/2a&b&c-requirements/usecase/CreatePostUseCase.html
+app/documentation/2a&b&c-requirements/usecase/Discussion Group Use Case.html
+app/documentation/2a&b&c-requirements/usecase/PostViewingUseCase.html
+app/documentation/2a&b&c-requirements/usecase/Request access to Group Use Case.html
+app/documentation/2a&b&c-requirements/usecase/directMessaging.html
+app/documentation/2a&b&c-requirements/usecase/loginUserCase.html
+app/documentation/2a&b&c-requirements/usecase/postEditor.html
+app/documentation/2a&b&c-requirements/usecase/registration.html
+app/documentation/2a&b&c-requirements/usecase/subscription_notification.html
+app/documentation/2a&b&c-requirements/usecase/userProfile.html
+app/documentation/2a&b&c-requirements/usecase/diagrams/DiscussionGroups.png
+app/documentation/2a&b&c-requirements/usecase/diagrams/Subscription_Notification.png
+app/documentation/2a&b&c-requirements/usecase/diagrams/directMessaging.png
+app/documentation/2a&b&c-requirements/usecase/diagrams/postEditor.png
+app/documentation/2a&b&c-requirements/usecase/diagrams/registration.png
+app/documentation/2a&b&c-requirements/usecase/diagrams/requestAccess.png
+app/documentation/2a&b&c-requirements/usecase/diagrams/userProfiles.png
+app/documentation/3a&b-highlevel and lowlevel design/Design Document.pdf
+app/documentation/6a- user_doc_prototype/User_Documentation_For_The_Prototype.pdf
+app/documentation/6b-project/Project Review.pdf
+app/documentation/meetings/meeting-1.doc
+app/documentation/meetings/meeting-10.doc
+app/documentation/meetings/meeting-11.doc
+app/documentation/meetings/meeting-2.doc
+app/documentation/meetings/meeting-3.doc
+app/documentation/meetings/meeting-4.doc
+app/documentation/meetings/meeting-5.doc
+app/documentation/meetings/meeting-6.doc
+app/documentation/meetings/meeting-7.doc
+app/documentation/meetings/meeting-8.doc
+app/documentation/meetings/meeting-9.doc
+app/documentation/meetings/template.doc
+app/models/Comment.py
+app/models/DirectMessaging.py
+app/models/DiscussionGroup.py
+app/models/Notification.py
+app/models/Post.py
+app/models/Subscription.py
+app/models/User.py
+app/models/__pycache__/Comment.cpython-37.pyc
+app/models/__pycache__/DirectMessaging.cpython-37.pyc
+app/models/__pycache__/DiscussionGroup.cpython-37.pyc
+app/models/__pycache__/Notification.cpython-37.pyc
+app/models/__pycache__/Post.cpython-37.pyc
+app/models/__pycache__/Subscription.cpython-37.pyc
+app/models/__pycache__/User.cpython-37.pyc
+app/services/JsonService.py
+app/services/MessagingService.py
+app/services/NotificationService.py
+app/services/SubscriptionService.py
+app/services/__pycache__/JsonService.cpython-37.pyc
+app/services/__pycache__/MessagingService.cpython-37.pyc
+app/services/__pycache__/NotificationService.cpython-37.pyc
+app/services/__pycache__/SubscriptionService.cpython-37.pyc
+app/static/background.png
+app/static/main.css
+app/static/js/createGroup.js
+app/static/js/notificationHandler.js
+app/templates/ListView.html
+app/templates/create_group.html
+app/templates/login.html
+app/templates/main.html
+app/templates/post_Edit.html
+app/templates/post_view.html
+app/templates/registration.html
+app/templates/user_Profile.html
+app/tests/__init__.py
+app/tests/test_UserProfile_DirectMessage.py
+app/tests/test_discussion_groups.py
+app/tests/test_post.py
+app/tests/test_subscription_notification.py
+app/tests/test_userAuthentication.py
+app/tests/base/BaseFixture.py
+comp2005l.egg-info/PKG-INFO
+comp2005l.egg-info/SOURCES.txt
+comp2005l.egg-info/dependency_links.txt
+comp2005l.egg-info/requires.txt
+comp2005l.egg-info/top_level.txt

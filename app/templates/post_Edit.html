@@ -1,0 +1,30 @@
+{% extends "main.html" %}
+{% block body %}
+{% if session.logged_in %}
+<form action="/postEdit{{postUrlParam}}"
+      method="post" class="add-entry">
+    <dl>
+        <dt>Add a Title!:
+        </dt>
+        <dd><input type="text" size="30" name="title">
+        </dd>
+        <dt>Give some text!:
+        </dt>
+        <dd><textarea name="body" rows="5" cols="40"></textarea>
+        </dd>
+        <dt>Discussion Group:</dt>
+        <dd>
+            <select name="group">
+                <option value="-1">None</option>
+                {% for group in groups %}
+                <option value="{{group.discussionid}}">{{group.discussiontitle}}</option>
+                {% endfor %}
+            </select>
+        </dd>
+        <dd><input type="submit" value="Share">
+        </dd>
+    </dl>
+</form>
+{% endif %}
+{% endblock %}
+

@@ -1,0 +1,4 @@
+graft app
+prune app/.git
+prune app/__pycache__
+global-exclude app/*.pyc
